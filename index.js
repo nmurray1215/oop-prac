@@ -1,21 +1,18 @@
-//factory function
-function createCirlce(radius){
-return {
-    radius,
-    draw: function(){
-        console.log("draw");
-    }
-};
-};
-
-let circle = createCirlce(1);
-
-//constructor
-function Circle(radius){
+function Circle (radius){
     this.radius = radius;
-    this.draw = function(){
-        console.log(draw);
+
+    let defaultLocation = {x:0,y:0};
+    let computeOptimumLocation = function(factor) {
+        //.......
     }
+    this.draw = function() {
+    let x,y;//
+
+    computeOptimumLocation(0.1);
+
+    console.log('draw');
+    };
 }
 
-let another = new Circle(1);
+let circle = new Citcle(10);
+circle.draw;
