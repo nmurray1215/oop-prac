@@ -12,5 +12,5 @@ function Circle (radius){
     };
 }
 
-let circle = new Citcle(10);
+let circle = new Circle(10);
 circle.draw;
