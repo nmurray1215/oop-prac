@@ -6,9 +6,7 @@ function Circle (radius){
         //.......
     }
     this.draw = function() {
-    let x,y;//
-
-    computeOptimumLocation(0.1);
+       computeOptimumLocation(0.1);
 
     console.log('draw');
     };
